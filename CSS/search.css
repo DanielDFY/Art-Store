@@ -1,0 +1,214 @@
+#searchHome .searchInput{
+    width: 681px;
+    margin: 30px auto ;
+    position: relative;
+    display: block;
+}
+
+#searchHome .searchInput::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#searchHome .searchInput .searchType{
+    float: left;
+    width: 120px;
+    height: 2.5em;
+    line-height: 2.5em;
+    border: 1px solid dodgerblue;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#searchHome .searchInput .default{
+    display: inline-block;
+    text-align: center;
+    color: dodgerblue;
+}
+
+#searchHome .searchInput ul.typeList{
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+    top: 2.5em;
+    border: 1px solid dodgerblue;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    list-style: none;
+}
+
+#searchHome .searchInput ul.typeList li{
+    display: list-item;
+    margin: 0;
+    padding: 0.1em 0 0 0;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    height: 2.5em;
+    line-height: 2.5em;
+    color: dodgerblue;
+    background-color: white;
+}
+
+#searchHome .searchInput ul.typeList li:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+#searchHome .searchInput .keyWords{
+    float: left;
+    border: 1px solid dodgerblue;
+    border-left: 0;
+    border-right: 0;
+    padding: 0 1em;
+    height: 3em;
+    width: 410px;
+
+}
+
+#searchHome .searchInput .searchBtn{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 2.14em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    width: 120px;
+    border: 1px solid dodgerblue;
+    border-radius: 0 4px 4px 0;
+    background-color: dodgerblue;
+    -webkit-transition:all 0.1s linear;
+    padding: 0;
+    outline:0 none;
+}
+
+#searchHome .searchInput .searchBtn:hover{
+    box-shadow: 0 0.1em 1px lightgray;
+    cursor: pointer;
+}
+
+#searchHome .searchInput .searchBtn:active{
+    box-shadow: none;
+}
+
+#searchHome .container{
+    margin: 2em auto;
+    padding: 0 0 0 0;
+    width: 60%;
+    min-width: 1000px;
+    height: 850px;
+}
+
+#searchHome .container > p{
+    margin: 0;
+    padding: 1.5em 3em 3em;
+    width: 100%;
+}
+
+#searchHome .container a{
+    text-decoration: none;
+    color: black;
+}
+
+#searchHome .container .resultBlock{
+    padding: 1em;
+    float: left;
+    height: 230px;
+    width: 46%;
+    -webkit-transition:all 0.15s linear;
+    cursor: pointer;
+}
+
+#searchHome .container .resultBlock:hover{
+    box-shadow: 0.1em 0.1em 5px rgba(0,0,0,0.4);
+}
+
+#searchHome .container .resultBlock img{
+    margin-left: 24px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#searchHome .container .resultBlock p{
+    margin: 0 0 0 40%;
+    padding: 0.4em;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#searchHome .container .resultBlock p.name{
+    padding: 0.2em;
+    font-size: 1.5em;
+    white-space:nowrap;
+}
+
+#searchHome .container .resultBlock p.description{
+    margin-left: 20px;
+    padding-top: 40px;
+    width: 80%;
+}
+
+#searchHome .container .resultBlock .hotPoint{
+    font-size: 1.2em;
+}
+
+#searchHome .container .resultBlock .price{
+    margin-left: 30px;
+}
+
+#sortByHot,#sortByPrice{
+    margin-left: 2.5em;
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
+
+#paging{
+    text-align: center;
+    margin: 2em 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#paging button{
+    box-shadow: none;
+    padding: 0.6em 1.6em;
+    border: 1px solid dodgerblue;
+    border-left: 0;
+    border-right: 0;
+    color: dodgerblue;
+    background-color: white;
+    outline:0 none;
+    font-size: 0.7em;
+}
+
+#paging button:hover{
+    cursor: pointer;
+}
+
+#paging button:first-child{
+    border-radius: 4px 0 0 4px;
+    border-left:1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#paging button:last-child{
+    border-radius: 0 4px 4px 0;
+    border-right:1px solid dodgerblue;
+}

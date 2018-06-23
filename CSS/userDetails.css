@@ -1,0 +1,139 @@
+#container{
+    margin: 50px;
+    min-height: 650px;
+}
+
+#accountDetails{
+    float: left;
+    margin: 0;
+    width: 300px;
+    height: 400px;
+}
+
+#accountDetails .userPhoto{
+    width: 100px;
+    height: 100px;
+    margin: 30px 100px;
+}
+
+#accountDetails p{
+    font-size: 1em;
+    margin-left: 2.1em;
+    padding: 0.5em;
+    width: 70%;
+}
+
+#accountDetails p span{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+#accountDetails button{
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.5em;
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid dodgerblue;
+    outline: none;
+}
+
+#accountDetails button:hover{
+    cursor: pointer;
+}
+
+#messageBtn{
+    width: 3.5em;
+    margin-left: 40px;
+}
+
+#rechargeBtn{
+    width: 3.5em;
+}
+
+#messageBtn:active,#rechargeBtn:active{
+    color: dodgerblue;
+    background-color: white;
+    border: 1px solid dodgerblue;
+}
+
+#signOutBtn{
+    margin-left: 35px;
+}
+
+#signOutBtn:hover{
+    background-color: red;
+    border: 1px solid red;
+}
+
+#signOutBtn:active{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+
+#recharge{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#recharge .container{
+    position: relative;
+    margin: 200px auto;
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#recharge p{
+    position: absolute;
+    width: 540px;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 1.1em;
+}
+
+#recharge button{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+#rechargeCancel{
+    margin-right: 100px;
+}
+
+#recharge input{
+    margin-top: 80px;
+    width: 240px;
+    padding: 0 1px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    outline: none;
+    border: 1px solid gray;
+}
+
+#recharge .hint{
+    visibility: hidden;
+    color: red;
+}

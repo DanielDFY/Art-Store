@@ -1,0 +1,222 @@
+#records{
+    margin: 0 0 0 360px;
+    width: 920px;
+}
+
+#records img{
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+}
+
+#records p.title{
+    margin: 0;
+    padding-left: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 8px 8px 0 0;
+}
+
+#records .moreBtn{
+    margin-right: 1em;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+#records .record{
+    margin: 50px 0;
+    min-height: 100px;
+}
+
+#records .recordContainer{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border: 1px solid gainsboro;
+}
+
+#records .recordBlock{
+    margin: 0;
+    padding: 1em;
+    height: 75px;
+    color: black;
+    -webkit-transition:all 0.15s linear;
+}
+
+#records .recordBlock:hover{
+    box-shadow: 0.1em 0.1em 5px rgba(0,0,0,0.2);
+}
+
+#records .recordBlock img,.detail{
+    float: left;
+    margin-right: 1em;
+    height: 75px;
+}
+
+#offered p{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#offered span{
+    display: inline-block;
+    margin-right: 65px;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#offered span.name{
+    width: 300px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#offered span.timeOffered{
+    width: 160px;
+}
+
+#offered .offeredBtn{
+    margin-left: 30px;
+    padding: 0.5em;
+    width: 60px;
+    color: dodgerblue;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid dodgerblue;
+    outline: none;
+}
+
+#offered .offeredBtn:hover{
+    cursor: pointer;
+}
+
+#offered .editItem:active{
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+#offered .deleteItem{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+
+#offered .deleteItem:active{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+#orders table{
+    border-spacing: 0 50px;
+}
+
+#orders table.orderContainer .orderHead{
+    display: table-cell;
+    width: 10px;
+    background-color: dodgerblue;
+}
+
+#orders table.orderContainer .orderDetails{
+    width: 300px;
+    padding-left: 48px;
+}
+
+#orders table.orderContainer .orderDetails p{
+    margin: 18px 0;
+}
+
+#orders table.orderContainer .orderItems{
+    width: 540px;
+}
+
+#orders table.orderContainer .orderItems p{
+    margin: 0;
+    height: 75px;
+}
+
+#orders table.orderContainer .orderItems span{
+    display: inline-block;
+    line-height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+#orders table.orderContainer .orderItems span.name{
+    width: 300px;
+    margin-right: 40px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#sold table.detail{
+    height: 75px;
+    vertical-align: middle;
+    border-spacing: 0;
+}
+
+#sold .detail span{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+#sold .soldWork .name{
+    font-size: 1.3em;
+    width: 300px;
+    text-align: center;
+}
+
+#sold .soldDetails{
+    width: 180px;
+    text-align: center;
+}
+
+#sold .soldDetails span{
+    display: block;
+    line-height: 30px;
+}
+
+#sold .buyerName{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    padding: 7px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+#sold .buyerName span{
+    display: block;
+    line-height: 30px;
+}
+
+#sold .buyerDetails p{
+    margin: 0;
+    width: 150px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#sold .buyerDetails span{
+    margin-left: 10px;
+    width: 100px;
+    text-align: left;
+    vertical-align: bottom;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}

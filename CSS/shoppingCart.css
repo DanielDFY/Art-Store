@@ -1,0 +1,323 @@
+#records{
+    margin: 0 0 0 330px;
+    width: 720px;
+    min-height: 500px;
+}
+
+#records img{
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+}
+
+#records p.title{
+    margin: 0;
+    padding-left: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 8px 8px 0 0;
+}
+
+#records .moreBtn{
+    margin-right: 1em;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+#records .record{
+    margin: 50px 0;
+    min-height: 100px;
+}
+
+#records .recordContainer{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border: 1px solid gainsboro;
+}
+
+#records .recordBlock{
+    margin: 0;
+    padding: 1em;
+    height: 75px;
+    color: black;
+    -webkit-transition:all 0.15s linear;
+}
+
+#records .recordBlock:hover{
+    box-shadow: 0.1em 0.1em 5px rgba(0,0,0,0.2);
+}
+
+#records .recordBlock img,.detail{
+    float: left;
+    margin-right: 1em;
+    height: 75px;
+}
+
+#shoppingCart tbody{
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+#shoppingCart span{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding: 0 10px;
+}
+
+#shoppingCart .workName{
+    width: 180px;
+    height: 75px;
+    display: inline-block;
+    font-size: 1.3em;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+#shoppingCart .workName span{
+    margin: 20px 0;
+}
+
+#shoppingCart .workIntro{
+    width: 200px;
+}
+
+#shoppingCart .workIntro span{
+    width: inherit;
+    white-space: unset;
+}
+
+#shoppingCart .price{
+    width: 90px;
+}
+
+#shoppingCart .deleteBtn span{
+    padding-right: 0;
+}
+
+#shoppingCart .deleteBtn span button{
+    padding: 0.5em;
+    width: 60px;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid red;
+    outline: none;
+}
+
+#shoppingCart .deleteBtn span button:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+#bin p.title{
+    margin: 0;
+    padding-left: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 8px 8px 0 0;
+}
+
+#bin .moreBtn{
+    margin-right: 1em;
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+
+#bin .recordContainer{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border: 1px solid gainsboro;
+}
+
+#bin .recordBlock{
+    display: none;
+    margin: 0;
+    padding: 1em;
+    height: 75px;
+    color: black;
+    -webkit-transition:all 0.15s linear;
+}
+
+#bin .recordBlock:hover{
+    box-shadow: 0.1em 0.1em 5px rgba(0,0,0,0.2);
+}
+
+#bin img,.detail{
+    float: left;
+    margin-right: 1em;
+    height: inherit;
+    display: block;
+}
+
+#bin img{
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+}
+
+#bin .recordBlock p{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    vertical-align: middle;
+}
+
+#bin .recordBlock a{
+    text-decoration: none;
+}
+
+
+#bin .recordBlock span{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+#bin .recordBlock .name{
+    font-size: 1.1em;
+    width: 80px;
+    margin-top: 23px;
+}
+
+#bin .restore{
+    margin-top: 20px;
+    position: relative;
+    z-index: 1000;
+    padding: 0.5em;
+    border-radius: 8px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+#bin .restore:active{
+    background-color: dodgerblue;
+    color: white;
+}
+
+#bin{
+    padding-bottom: 5px;
+    position: absolute;
+    display: block;
+    top: 190px;
+    left: 1135px;
+    width: 280px;
+    margin: 50px 0;
+    min-height: 100px;
+}
+
+#pay button{
+    position: absolute;
+    display: block;
+    left: 1135px;
+    width: 280px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    border: 1px solid dodgerblue;
+    outline: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-top: 50px;
+    -webkit-transition:background-color 0.1s linear;
+}
+
+#pay button:hover{
+    cursor: pointer;
+}
+
+#pay button:active{
+    color: dodgerblue;
+    background-color: white;
+    border: 1px solid dodgerblue;
+}
+
+#failPay{
+    visibility: hidden;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#failPay .container{
+    position: relative;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    min-height: 200px;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#failPay .titleText{
+    position: absolute;
+    width: 540px;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 1.2em;
+}
+
+#failPay .payFailBtn{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    left: 250px;
+    border-radius: 5px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+#failPay .payFailBtn:active{
+    color: dodgerblue;
+    background-color: white;
+    border: 1px solid dodgerblue;
+}
+
+#failContainer{
+    display: block;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+#failContainer p.failItem{
+    padding-left: 50px;
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}

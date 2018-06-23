@@ -1,0 +1,48 @@
+footer{
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 200px;
+    background-color: #292929;
+    color: #eeeeee;
+}
+
+footer p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer p.logos{
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+#followMe span{
+    margin: 0 1em;
+    color: #eeeeee;
+}
+
+#followMe span.logo1:hover{
+    color: red;
+}
+
+#followMe span.logo2:hover{
+    color: #3B5998;
+}
+
+#followMe span.logo3:hover{
+    color: #1DA1F2;
+}
+
+#followMe span.logo4:hover{
+    color: limegreen;
+}
+
+
+
+
