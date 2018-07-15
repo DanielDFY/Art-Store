@@ -9,7 +9,7 @@ $(document).ready(function () {
         });
     }
     else {
-
+        signed();
         $("#uploadFile").on("change", function () {
             var files = !!this.files ? this.files : [];
             if (!files.length || !window.FileReader) return;
@@ -123,7 +123,7 @@ $(document).ready(function () {
                     contentType: false,
                     cache: false,
                     processData: false,
-                    success: function (data) {
+                    success: function () {
                         var alertBody = document.getElementById("alert");
                         alertBody.getElementsByClassName("alertText")[0].innerHTML = "Success!";
                         alertBody.style.visibility = "visible";

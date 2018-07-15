@@ -11,6 +11,8 @@ if(!$con){
     die("Could not connect ".mysqli_connect_error());
 }
 
+mysqli_query($con,'SET NAMES UTF8');
+
 $file = $_FILES['workFile'];
 $title = $_POST['title'];
 $artist = $_POST['artist'];
