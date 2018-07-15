@@ -13,42 +13,42 @@
 
 * #### 主页
 
-  <img alt="index" src="screenshots/index.jpg">
+  <img alt="index" src="tree/master/screenshots/index.jpg">
 
 
 
 * #### 详情页
 
-  <img alt="details" src="screenshots/work page.jpg">
+  <img alt="details" src="tree/master/screenshots/work page.jpg">
 
 
 
 * #### 搜索页
 
-  <img alt="search" src="screenshots/search1.jpg">
+  <img alt="search" src="tree/master/screenshots/search1.jpg">
 
-  <img alt="search" src="screenshots/search2.jpg">
+  <img alt="search" src="tree/master/screenshots/search2.jpg">
 
 
 
 * #### 个人页面
 
-  <img alt="search" src="screenshots/account page.jpg">
+  <img alt="search" src="tree/master/screenshots/account page.jpg">
 
   
 
 * #### 购物车
 
-  <img alt="search" src="screenshots/shopping cart.jpg">
+  <img alt="search" src="tree/master/screenshots/shopping cart.jpg">
 
   > 购物车中的临时垃圾桶功能存在bug，暂未修复。
 
 * #### 艺术品发布
 
-  <img alt="search" src="screenshots/publish page.jpg">
+  <img alt="search" src="tree/master/screenshots/publish page.jpg">
 
   
 
 * #### 艺术品修改
 
-  <img alt="search" src="screenshots/update page.jpg">
+  <img alt="search" src="tree/master/screenshots/update page.jpg">
