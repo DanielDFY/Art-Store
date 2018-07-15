@@ -27,7 +27,7 @@
 
   <img alt="search" src="screenshots/search1.jpg">
 
-<img alt="search" src="screenshots/search2.jpg">
+  <img alt="search" src="screenshots/search2.jpg">
 
 
 
